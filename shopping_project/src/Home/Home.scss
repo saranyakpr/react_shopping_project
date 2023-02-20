@@ -1,0 +1,45 @@
+.container{
+    margin: auto;
+    width: 85%;
+}
+.banner{
+    display: flex;
+    margin-top: 10rem;
+}
+.bannerL{
+    width: 50%;
+    .border{
+        border-left: 2px solid red;
+        color: #626266;
+        font-weight: 600;
+        padding-left: .8rem;
+    }
+    p{
+        padding: 0%;
+        margin: 0%;
+    }
+    .cont{
+        font-size: 3rem;
+        font-weight: 300;
+        color: #04051D;
+    }
+    h2{
+        padding: 0%;
+        margin: 0%;
+    }
+    .cont2{
+        margin-top: -1.3rem;
+        margin-bottom: 3rem;
+    }
+    .button{
+        border: 2px solid black;
+        text-decoration: none;
+        padding: 10px 30px;
+        border-radius: 0;
+        font-weight: 600;
+    }
+    .button:hover{
+        background-color: black;
+        color:white
+    }
+}
